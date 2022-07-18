@@ -1,27 +1,153 @@
+/*основной цвет текста #212121;*/
+
+:root {
+  --primary-back-color: #2f303a;
+  --main-color: #ffffff;
+  --logo-akcent: #000000;
+  --fon-color: #f5f5f5;
+  --foto-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --akcent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: none;
+}
+/*лого з варіантами*/
+.header {
+  background-color: var(--main-color);
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  /*line-height: 1, 19;*/
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--akcent-color);
   text-decoration: none;
 }
-.logo-white {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 0.03em;
-  color: #000000;
+.logo-black {
+  color: var(--logo-akcent);
 }
-.logo .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+.logo-white {
+  color: var(--main-color);
+}
+/*Навігація*/
+ul {
+  list-style: none;
+}
+.nav .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--akcent-color);
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  background-color: var(--akcent-color);
+  height: 50px;
+  width: 216px;
+  left: 692px;
+  top: 430px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.button:focus {
+  text-decoration: underline;
+}
+/*Герой*/
+.hero-section {
+  background-color: var(--primary-back-color);
+}
+.hero {
+  color: var(--main-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*Секція*/
+/* .original {
+  background-color: var(--fon-color);
+} */
+.hiden {
+  visibility: hidden;
+}
+.li-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.title {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+/*Команда*/
+.section-komanda {
+  background-color: var(--foto-color);
+}
+.fio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.profesion {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--primary-back-color);
+}
+.adres a {
+  text-decoration: none;
+  color: var(--main-color);
+  cursor: default;
+}
+.adres .akcent {
+  color: rgba(255, 255, 255, 0.6);
 }
