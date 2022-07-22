@@ -1,12 +1,10 @@
 /*основа*/
 :root {
-	--primary-back-color: #2f303a;
-	--main-color: #ffffff;
-	--logo-akcent: #000000;
+	--fon-akcent: #2f303a;
+	--white-color: #ffffff;
 	--fon-color: #f5f5f5;
-	--foto-color: #f5f4fa;
 	--primary-text-color: #212121;
-	--secondary-text-color: #757575;
+	--pretitle-color: #757575;
 	--akcent-color: #2196f3;
 }
 
@@ -27,14 +25,14 @@ body {
 	text-decoration: none;
 }
 .logo-black {
-	color: var(--logo-akcent);
+	color: #000000;
 }
 .logo-white {
-	color: var(--main-color);
+	color: var(--white-color);
 }
 /*Хедер*/
 .header {
-	background-color: var(--main-color);
+	background-color: var(--white-color);
 }
 /*Навігація хедер*/
 .list {
@@ -65,12 +63,12 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--secondary-text-color);
+	color: var(--pretitle-color);
 }
 
 /*Футер*/
 .footer {
-	background-color: var(--primary-back-color);
+	background-color: var(--fon-akcent);
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -79,7 +77,7 @@ body {
 	font-style: normal;
 	text-decoration: none;
 	cursor: default;
-	color: var(--main-color);
+	color: var(--white-color);
 }
 
 .foter-akcent {
@@ -91,10 +89,10 @@ body {
 /* ============Studio Page=============== */
 /*Герой*/
 .hero-section {
-	background-color: var(--primary-back-color);
+	background-color: var(--fon-akcent);
 }
 .hero-title {
-	color: var(--main-color);
+	color: var(--white-color);
 	text-align: center;
 	font-weight: 900;
 	font-size: 44px;
@@ -117,7 +115,7 @@ body {
 	line-height: 30px;
 	letter-spacing: 0.06em;
 	text-align: center;
-	color: var(--main-color);
+	color: var(--white-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	cursor: pointer;
@@ -154,7 +152,7 @@ body {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: var(--secondary-text-color);
+	color: var(--pretitle-color);
 }
 /*роботи*/
 .title {
@@ -167,10 +165,10 @@ body {
 }
 /*Команда*/
 .section-komanda {
-	background-color: var(--foto-color);
+	background-color: #f5f4fa;
 }
 .foto-item {
-	background-color: var(--main-color);
+	background-color: var(--white-color);
 }
 .fio {
 	font-weight: 500;
@@ -183,13 +181,13 @@ body {
 	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: var(--secondary-text-color);
+	color: var(--pretitle-color);
 }
 
 /* --------Portfolio Page-------------- */
 /*Фільтр*/
 .portfolio-filtr {
-	background-color: var(--foto-color);
+	background-color: #f5f4fa;
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -205,7 +203,21 @@ body {
 .portfolio-filtr:focus {
 	background-color: var(--akcent-color);
 	text-decoration: underline solid var(--akcent-color);
-	color: var(--main-color);
+	color: var(--white-color);
 	cursor: pointer;
 	border: none;
+}
+
+.portfolio-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-text-color);
+}
+.portfolio-pretitle {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--pretitle-color);
 }
