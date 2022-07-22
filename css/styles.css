@@ -200,6 +200,7 @@ body {
 	color: var(--primary-text-color);
 	cursor: pointer;
 	border: none;
+	border-radius: 4px;
 }
 
 .portfolio-filtr:hover,
