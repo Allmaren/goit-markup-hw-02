@@ -16,7 +16,6 @@ body {
 /*лого з варіантами*/
 .logo {
 	font-family: "Raleway", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -92,7 +91,7 @@ body {
 .karta:focus,
 .footer-akcent:hover,
 .footer-akcent:focus {
-	text-decoration: underline solid var(--akcent-color);
+	color: var(--akcent-color);
 }
 /* ============Studio Page=============== */
 /*Герой*/
@@ -112,10 +111,6 @@ body {
 /*Кнопка*/
 .button {
 	background-color: var(--akcent-color);
-	height: 50px;
-	width: 216px;
-	left: 692px;
-	top: 430px;
 	border-radius: 4px;
 	font-family: inherit;
 	font-size: 16px;
@@ -130,11 +125,11 @@ body {
 }
 .button:focus,
 .button:hover {
-	text-decoration: underline solid var(--akcent-color);
+	background-color: #188ce8;
 }
 /*Секція Особливості*/
 .original {
-	background-color: var(--fon-color);
+	background-color: var(--white-color);
 }
 .visually-hidden {
 	position: absolute;
@@ -201,7 +196,6 @@ body {
 	color: var(--primary-text-color);
 }
 .profesion {
-	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--pretitle-color);
@@ -240,7 +234,6 @@ body {
 	color: var(--primary-text-color);
 }
 .portfolio-pretitle {
-	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--pretitle-color);
