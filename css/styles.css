@@ -42,6 +42,10 @@ body {
 .link {
 	text-decoration: none;
 }
+
+.header-nav {
+}
+
 .header-link,
 .header-adres {
 	font-weight: 500;
@@ -144,6 +148,10 @@ body {
 	clip-path: inset(50%);
 	margin: -1px;
 }
+
+.original-list {
+}
+
 .original-title {
 	font-weight: 700;
 	font-size: 14px;
@@ -158,6 +166,13 @@ body {
 	color: var(--pretitle-color);
 }
 /*роботи*/
+.robota {
+}
+.robota-title {
+}
+.robota-list {
+}
+
 .title {
 	font-weight: 700;
 	font-size: 36px;
@@ -170,6 +185,11 @@ body {
 .section-komanda {
 	background-color: #f5f4fa;
 }
+.comanda-title {
+}
+.comanda-list {
+}
+
 .foto-item {
 	background-color: var(--white-color);
 }
