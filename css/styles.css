@@ -1,5 +1,4 @@
 /*основа*/
-
 :root {
 	--primary-back-color: #2f303a;
 	--main-color: #ffffff;
@@ -37,7 +36,7 @@ body {
 .header {
 	background-color: var(--main-color);
 }
-/*Навігація*/
+/*Навігація хедер*/
 .list {
 	list-style: none;
 }
@@ -69,6 +68,27 @@ body {
 	color: var(--secondary-text-color);
 }
 
+/*Футер*/
+.footer {
+	background-color: var(--primary-back-color);
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.karta {
+	font-style: normal;
+	text-decoration: none;
+	cursor: default;
+	color: var(--main-color);
+}
+
+.foter-akcent {
+	font-style: normal;
+	text-decoration: none;
+	cursor: default;
+	color: hsla(0, 0%, 100%, 0.6);
+}
+/* ============Studio Page=============== */
 /*Герой*/
 .hero-section {
 	background-color: var(--primary-back-color);
@@ -149,7 +169,7 @@ body {
 .section-komanda {
 	background-color: var(--foto-color);
 }
-.fon-foto {
+.foto-item {
 	background-color: var(--main-color);
 }
 .fio {
@@ -166,27 +186,26 @@ body {
 	color: var(--secondary-text-color);
 }
 
-/*Футер*/
-.footer {
-	background-color: var(--primary-back-color);
-	font-size: 14px;
-	line-height: 1.71;
+/* --------Portfolio Page-------------- */
+/*Фільтр*/
+.portfolio-filtr {
+	background-color: var(--foto-color);
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
 	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--primary-text-color);
+	cursor: pointer;
+	border: none;
 }
-.karta {
-	font-style: normal;
-	text-decoration: none;
+
+.portfolio-filtr:hover,
+.portfolio-filtr:focus {
+	background-color: var(--akcent-color);
+	text-decoration: underline solid var(--akcent-color);
 	color: var(--main-color);
-	cursor: default;
-}
-
-.foter-akcent {
-	font-style: normal;
-	text-decoration: none;
-	cursor: default;
-	color: hsla(0, 0%, 100%, 0.6);
-}
-
-.test {
-	column-count: 3;
+	cursor: pointer;
+	border: none;
 }

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
-		<link rel="stylesheet" href="./css/styles.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -19,8 +19,8 @@
 			<div>
 				<nav>
 					<ul class="header-nav list">
-						<li><a href="./index.html" class="header-link link current">Студія</a></li>
-						<li><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
+						<li><a href="./index.html" class="header-link link">Студія</a></li>
+						<li><a href="./portfolio.html" class="header-link link current">Портфоліо</a></li>
 						<li><a href="" class="header-link link">Контакти</a></li>
 					</ul>
 				</nav>
@@ -36,81 +36,80 @@
 		</header>
 
 		<main>
-			<section>
-				<ul>
-					<li>Все</li>
-					<li>Веб-сайти</li>
-					<li>Додатки</li>
-					<li>Дизайн</li>
-					<li>Маркетинг</li>
+			<section class="portfolio">
+				<h1 class="visually-hidden">Портфоліо</h1>
+				<ul class="portfolio-list list">
+					<li><button type="button" class="portfolio-filtr">Все</button></li>
+					<li><button type="button" class="portfolio-filtr">Веб-сайти</button></li>
+					<li><button type="button" class="portfolio-filtr">Додатки</button></li>
+					<li><button type="button" class="portfolio-filtr">Дизайн</button></li>
+					<li><button type="button" class="portfolio-filtr">Маркетинг</button></li>
 				</ul>
-				<div class="test">
-					<ul>
-						<li>
-							<img src="./images/tekhno.jpg" alt="сайт на ноутбуці" />
-							<p>Технокряк</p>
-							<p>Веб-сайт</p>
-						</li>
-						<li>
-							<img src="./images/new-orlean.jpg" alt=" два баскетболіста з м‘ячем на фоні розлитої синьої фарбою" />
-							<p>
-								Постер
-								<span lang="en">Orlean vs Golden Star</span>
-							</p>
-							<p>Дизайн</p>
-						</li>
-						<li>
-							<img src="./images/seafood.jpg" alt="логотип компанії - назва ресторану на фоні млюнку риби" />
-							<p>
-								Ресторан
-								<span lang="en">Seafood</span>
-							</p>
-							<p>Додаток</p>
-						</li>
-						<li>
-							<img src="./images/prime.jpg" alt="чорні навушники на білому фоні" />
-							<p>
-								Проєкт
-								<span lang="en">Prime</span>
-							</p>
-							<p>Маркетинг</p>
-						</li>
-						<li>
-							<img src="./images/boxes.jpg" alt="коробки на білому фоні, одна біла інша оранжова" />
-							<p>
-								Проєкт
-								<span lang="en">Boxes</span>
-							</p>
-							<p>Додаток</p>
-						</li>
-						<li>
-							<img src="./images/borders.jpg" alt="монітор з відкритим сайтом" />
-							<p lang="en">Inspiration has no Borders</p>
-							<p>Веб-сайт</p>
-						</li>
-						<li>
-							<img src="./images/edition.jpg" alt="книга" />
-							<p>
-								Видання
-								<span lang="en">Limited Edition</span>
-							</p>
-							<p>Дизайн</p>
-						</li>
-						<li>
-							<img src="./images/lab.jpg" alt="етікетка-логотип" />
-							<p>
-								Проект
-								<span lang="en">LAB</span>
-							</p>
-							<p>Маркетинг</p>
-						</li>
-						<li>
-							<img src="./images/business.jpg" alt="сайт відкритий на ноутбуці" />
-							<p lang="en">Growing Business</p>
-							<p>Додаток</p>
-						</li>
-					</ul>
-				</div>
+				<ul class="portfolio-list list">
+					<li class="foto-item">
+						<img src="./images/tekhno.jpg" alt="сайт на ноутбуці" />
+						<p>Технокряк</p>
+						<p>Веб-сайт</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/new-orlean.jpg" alt=" два баскетболіста з м‘ячем на фоні розлитої синьої фарбою" />
+						<p>
+							Постер
+							<span lang="en">Orlean vs Golden Star</span>
+						</p>
+						<p>Дизайн</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/seafood.jpg" alt="логотип компанії - назва ресторану на фоні млюнку риби" />
+						<p>
+							Ресторан
+							<span lang="en">Seafood</span>
+						</p>
+						<p>Додаток</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/prime.jpg" alt="чорні навушники на білому фоні" />
+						<p>
+							Проєкт
+							<span lang="en">Prime</span>
+						</p>
+						<p>Маркетинг</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/boxes.jpg" alt="коробки на білому фоні, одна біла інша оранжова" />
+						<p>
+							Проєкт
+							<span lang="en">Boxes</span>
+						</p>
+						<p>Додаток</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/borders.jpg" alt="монітор з відкритим сайтом" />
+						<p lang="en">Inspiration has no Borders</p>
+						<p>Веб-сайт</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/edition.jpg" alt="книга" />
+						<p>
+							Видання
+							<span lang="en">Limited Edition</span>
+						</p>
+						<p>Дизайн</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/lab.jpg" alt="етікетка-логотип" />
+						<p>
+							Проект
+							<span lang="en">LAB</span>
+						</p>
+						<p>Маркетинг</p>
+					</li>
+					<li class="foto-item">
+						<img src="./images/business.jpg" alt="сайт відкритий на ноутбуці" />
+						<p lang="en">Growing Business</p>
+						<p>Додаток</p>
+					</li>
+				</ul>
 			</section>
 		</main>
 		<footer>
