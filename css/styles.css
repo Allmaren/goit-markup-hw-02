@@ -84,6 +84,12 @@ body {
 .footer-akcent {
 	color: hsla(0, 0%, 100%, 0.6);
 }
+.karta:hover,
+.karta:focus,
+.footer-akcent:hover,
+.footer-akcent:focus {
+	text-decoration: underline solid var(--akcent-color);
+}
 /* ============Studio Page=============== */
 /*Герой*/
 .hero-section {
